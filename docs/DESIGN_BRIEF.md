@@ -4,10 +4,14 @@
 ### Objective
 Build a Python-based AI agent framework with tool calling and workflow orchestration that demonstrates AI infrastructure engineering skills.
 
-### Target Job Matches
-- Upwork: "AI Agent Infrastructure Developer" ($500 fixed)
-- Wellfound: "AI/LLM Full-Stack Engineer" ($250k-$300k)
-- GitHub Bounties: MCP/tool integration work ($2k-$3.5k)
+### Demonstrated Capabilities
+This project showcases:
+- AI agent framework architecture from scratch
+- Tool calling and decorator-based registration
+- Workflow orchestration with DAG execution
+- MCP (Model Context Protocol) implementation
+- Async Python and state management
+- Package distribution and CLI design
 
 ### Tech Stack
 - **Language:** Python 3.11+
