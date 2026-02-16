@@ -32,4 +32,4 @@ Demonstrates AI infrastructure and automation engineering skills.
 See docs/SETUP.md for installation instructions.
 
 ---
-Built as a portfolio piece demonstrating AI infrastructure development.
+Built to demonstrate AI infrastructure and framework development capabilities.
