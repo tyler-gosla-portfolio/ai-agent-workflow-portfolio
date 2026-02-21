@@ -1,0 +1,30 @@
+{
+  "name": "@golem/mcp",
+  "version": "0.1.0",
+  "description": "MCP server integration for Golem CLI - stdio transport, server lifecycle, tool invocation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "golem": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "start": "node dist/cli/index.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "golem", "agent", "tool-calling"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
